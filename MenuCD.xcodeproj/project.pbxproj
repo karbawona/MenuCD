@@ -15,6 +15,8 @@
 		6F180882225DFF28005E72C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F180880225DFF27005E72C6 /* LaunchScreen.storyboard */; };
 		6F18088D225DFF28005E72C6 /* MenuCDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F18088C225DFF28005E72C6 /* MenuCDTests.swift */; };
 		6F180898225DFF28005E72C6 /* MenuCDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F180897225DFF28005E72C6 /* MenuCDUITests.swift */; };
+		6F1808AA225E9630005E72C6 /* Dishes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1808A8225E9630005E72C6 /* Dishes+CoreDataClass.swift */; };
+		6F1808AB225E9630005E72C6 /* Dishes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1808A9225E9630005E72C6 /* Dishes+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6F180893225DFF28005E72C6 /* MenuCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F180897225DFF28005E72C6 /* MenuCDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCDUITests.swift; sourceTree = "<group>"; };
 		6F180899225DFF28005E72C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1808A8225E9630005E72C6 /* Dishes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dishes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6F1808A9225E9630005E72C6 /* Dishes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dishes+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				6F180874225DFF26005E72C6 /* AppDelegate.swift */,
+				6F1808A8225E9630005E72C6 /* Dishes+CoreDataClass.swift */,
+				6F1808A9225E9630005E72C6 /* Dishes+CoreDataProperties.swift */,
 				6F180876225DFF26005E72C6 /* ViewController.swift */,
 				6F180878225DFF26005E72C6 /* Main.storyboard */,
 				6F18087E225DFF27005E72C6 /* Assets.xcassets */,
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F180877225DFF26005E72C6 /* ViewController.swift in Sources */,
+				6F1808AA225E9630005E72C6 /* Dishes+CoreDataClass.swift in Sources */,
 				6F18087D225DFF26005E72C6 /* MenuCD.xcdatamodeld in Sources */,
 				6F180875225DFF26005E72C6 /* AppDelegate.swift in Sources */,
+				6F1808AB225E9630005E72C6 /* Dishes+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
